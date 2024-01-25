@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Portfolio</title>
+        <link rel="stylesheet" type="text/scss" href="./css/main.scss">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    </head>
+    <body>
+        <header>
+            <nav class="navbar">
+                <a href="#top" class="back-to-top">Portfolio</a>
+                <ul class="menu">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <div class="position-indicator"></div> 
+            </nav>
+            <div class="header-content">
+                <img src="/assets/KNP.jpeg"  class="profile">
+                <h1>Kath Nancy Paul</h1>
+                <p>Master of Computer Science Student at the University of Illinois at Urbana-Champaign</p>
+            </div>
+        </header>
+        <section id="about">
+            <h2>About Me</h2>
+            <p>Hello! My name is Kath Nancy Paul.</p>
+            <div class="multi-column-content">
+                <p>I am a Master of Computer Science Student at the University of Illinois at Urbana-Champaign. I am a Bits and Bytes Mentor at Women in Computer Science. I am also involved in IGSA.</p>
+                <p>I have a Bachelor's degree in Data Science with a minor in Neuroscience from Loyola University Chicago. I was involved in ISA and LUC NAACH.</p>
+                <p>I have internship and research experience related to Computer Science and Data Science in Public Health and Healthcare. Here are a few of my projects!</p>
+            </div>
+            </section>
+            <section id="background-image">
+            </section>
+            <section id="projects">
+                <h2>My Projects</h2>
+                <p>Here are a few of my projects!</p>
+                <div class="projects-container">
+                  <div class="project">
+                    <h3>Database Programming</h2>
+                    <p>Python, SQL, HTML, CSS</p>
+                    <button class="modal-button">View Details</button>
+                    <div class="modal">
+                      <div class="modal-content">
+                        <span class="close-button">&times;</span>
+                        <h3>Database Programming Consulting</h3>
+                        <p>Constructed a database with CRUD capabilities and an user interface using Python, MySQL, and Flask-SQL Alchemy for a client as well as
+                            visualized results pulled from queries using phpMyAdmin and MongoDB into reports.
+                            </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="project">
+                    <h3>Natural Language Processing</h2>
+                    <p>Python</p>
+                    <button class="modal-button">View Details</button>
+                    <div class="modal">
+                      <div class="modal-content">
+                        <span class="close-button">&times;</span>
+                        <h3>Natural Language Processing</h3>
+                        <p>Deployed numerous models including LinearSVC, Logistic Regression, tf-idf vectorizer with KNN, Random Forest, and Naive Bayes to
+                            determine the most efficient model in classifying Coronavirus Tweet sentiment.</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="project">
+                    <h3>Big Data Analytics</h2>
+                    <p>Python</p>
+                    <button class="modal-button">View Details</button>
+                    <div class="modal">
+                      <div class="modal-content">
+                        <span class="close-button">&times;</span>
+                        <h3>Big Data Analytics Capstone</h3>
+                        <p>Utilized the Apache Hadoop ecosystem including HDFS, MapReduce, Hive, HBase, Phoenix, and Pig as well as the Apache Spark ecosystem including PySpark, SparkSQL, MLib, Spark Streaming, and Spark clusters in a series of projects to deliver insights drawn from big datasets.
+                            </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </section>
+        <section id="carousel">
+            <p>Here are a few projects from classes that I took at UIUC... </p> 
+            <div class="carousel-container">
+                <div class="slide"> 
+                    <h3>Fall 2022</h3>
+                    <h4>Artifical Intelligence</h4>
+                    <h4>Data Mining</h4>
+                </div>
+                <div class="slide"> 
+                    <h3>Spring 2022</h3>
+                    <h4>Cloud Computing Applications</h4>
+                    <p>Configured AWS tools and services such as Amazon EC2, S3, Lambda, API Gateway, Glue, Athena, DynamoDB, Elastic Load Balancing, Cognito,
+                        Lex, RDS, ElastiCache, and Redis to complete sets of problems and created data visualizations and reports using Tableau.</p>
+                    <h4>Human Computer Interaction</h4>
+                </div>
+                <div class="slide">
+                    <h3>Fall 2023</h3> 
+                    <h4>Web Programming</h4>
+                    <p>Designed a personal portfolio website!</p>
+                </div>
+            </div>
+            <div class="carousel-controls">
+                <button class="carousel-arrow prev-arrow">&#9664;</button>
+                <button class="carousel-arrow next-arrow">&#9654;</button>
+            </div>
+        </section>
+        <section id="video">
+            <video controls>
+              <source src="./assets/grainger.mp4" type="video/mp4">
+            </video>
+          </section>
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <p>Feel free to reach out through email!</p>
+            <div class="contact-info">
+                <i class="fa-regular fa-envelope"></i> 
+                <h4>kathnancy@gmail.com</h4>
+            </div>
+            <p>Or connect on social media!</p>
+            <div class="social-icons">
+                <a href="https://www.linkedin.com/in/kath-nancy-paul-0216/" <i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://github.com/nancy-paul"<i class="fa-brands fa-square-github"></i></a>
+            </div>
+        </section>
+    <footer>
+        <p>Thank you for visting my webpage!</p>
+    </footer>
+    <script src="./js/main.js"></script>
+</body>
+</html>
