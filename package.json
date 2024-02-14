@@ -1,12 +1,12 @@
 {
-  "name": "mp1",
+  "name": "page",
   "version": "1.0.0",
-  "description": "CS498RK MP1",
+  "description": "",
   "scripts": {
     "start": "export NODE_OPTIONS=--openssl-legacy-provider; webpack-dev-server",
     "build": "export NODE_OPTIONS=--openssl-legacy-provider; webpack"
   },
-  "author": "UIUC Web Programming Staff",
+  "author": "",
   "license": "ISC",
   "devDependencies": {
     "@babel/core": "^7.15.0",
